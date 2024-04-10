@@ -12,5 +12,10 @@
 # limitations under the License.
 
 # [START gae_quickstart_yaml]
-runtime: nodejs16
+runtime: nodejs
+env: flex
+service: nodejs-flex-2
+runtime_config:
+  operating_system: "ubuntu22"
+  runtime_version: "20"
 # [END gae_quickstart_yaml]
